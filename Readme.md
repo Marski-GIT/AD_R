@@ -44,9 +44,17 @@ http://api.nbp.pl
 ## Informacje początkowe
 
 - aplikacja napisana w PHP 8.2
-- w .htaaccess należy wpisać domenę, pod którą została umieszczona aplikacja.
+- w .htaccess należy skonfigurować domenę, pod którą została umieszczona aplikacja.
+- w pliku .env należy wpisać domenę, pod którą została umieszczona aplikacja.
 
 ## Baza danych
 
 - W folderze SQL znajdują się struktury bazy danych.
-- W pliku .env należy podać konfigurację połączenia z bazą danych
+- W pliku .env należy podać konfigurację połączenia z bazą danych.
+
+## Opis (brak informacji w treści zadania)
+
+- pobieram tylko tabele A i B (brak informacji o celu przeliczeń, zakup czy sprzedaż).
+- aktualizacja bazy kursów walut odbędzie się tylko w przypadku, gdy w bazie nie ma już numeru tabeli z API NBP.
+- wyświetlam ostatnie 10 wyników przeliczeń z kalkulatora.
+- metoda do generowania tabeli (Models/CurrencyModel->read()), brak informacji o jej użyciu (4 punkt zadania).
